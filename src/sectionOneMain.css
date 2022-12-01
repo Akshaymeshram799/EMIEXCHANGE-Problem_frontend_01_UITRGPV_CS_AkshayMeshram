@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+.sectionOne{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    width: 98vw;
+    background-color: aliceblue;
+    
+}
+
+.img{
+    width: 700px;
+    height: 450px;
+    animation: imageZoom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imageZoom{
+   50%{
+       width: 750px;
+       height: 480px;
+   }  
+
+}
+
+.sectionFirstPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #4026a0 0%,
+    #44107a 29%,
+    #F99746 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 3.2rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.firstOneFrage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
